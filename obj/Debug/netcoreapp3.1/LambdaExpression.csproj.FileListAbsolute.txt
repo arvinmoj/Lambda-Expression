@@ -1,0 +1,12 @@
+/Users/macbook/Desktop/Learn/LambdaExpression/bin/Debug/netcoreapp3.1/LambdaExpression.deps.json
+/Users/macbook/Desktop/Learn/LambdaExpression/bin/Debug/netcoreapp3.1/LambdaExpression.runtimeconfig.json
+/Users/macbook/Desktop/Learn/LambdaExpression/bin/Debug/netcoreapp3.1/LambdaExpression.runtimeconfig.dev.json
+/Users/macbook/Desktop/Learn/LambdaExpression/bin/Debug/netcoreapp3.1/LambdaExpression.dll
+/Users/macbook/Desktop/Learn/LambdaExpression/bin/Debug/netcoreapp3.1/LambdaExpression.pdb
+/Users/macbook/Desktop/Learn/LambdaExpression/obj/Debug/netcoreapp3.1/LambdaExpression.csprojAssemblyReference.cache
+/Users/macbook/Desktop/Learn/LambdaExpression/obj/Debug/netcoreapp3.1/LambdaExpression.AssemblyInfoInputs.cache
+/Users/macbook/Desktop/Learn/LambdaExpression/obj/Debug/netcoreapp3.1/LambdaExpression.AssemblyInfo.cs
+/Users/macbook/Desktop/Learn/LambdaExpression/obj/Debug/netcoreapp3.1/LambdaExpression.csproj.CoreCompileInputs.cache
+/Users/macbook/Desktop/Learn/LambdaExpression/obj/Debug/netcoreapp3.1/LambdaExpression.dll
+/Users/macbook/Desktop/Learn/LambdaExpression/obj/Debug/netcoreapp3.1/LambdaExpression.pdb
+/Users/macbook/Desktop/Learn/LambdaExpression/obj/Debug/netcoreapp3.1/LambdaExpression.genruntimeconfig.cache
