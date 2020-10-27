@@ -88,12 +88,75 @@ namespace LambdaExpression
             var result24 = Names.Where(n => n.ToLower().EndsWith("a")).ToList();
 
             // Count Syntax
-            int[] Distinct = { 1 , 1 , 2 , 2 , 3 , 4 , 4 , 5 , 5};
+            int[] Distinct = { 1, 1, 2, 2, 3, 4, 4, 5, 5 };
             var result25 = Distinct.Distinct().ToList();
 
             // Count Conditional
-            int[] Conditional = { 5 , 4 , 1 , 3 , 9 , 8 , 6 , 7 , 2 , 0 };
+            int[] Conditional = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
             var result26 = Conditional.Count(n => n % 2 == 1);
+
+
+            List<Person> people = new List<Person>();
+
+            Person p1 = new Person()
+            {
+                Id = 1,
+                Name = "Arvin",
+                Family = "Moj",
+                Age = 20
+            };
+
+            people.Add(p1);
+
+            Person p2 = new Person()
+            {
+                Id = 2,
+                Name = "Shervin",
+                Family = "Khodami",
+                Age = 21
+            };
+
+            people.Add(p2);
+
+            Person p3 = new Person()
+            {
+                Id = 3,
+                Name = "Arina",
+                Family = "Rahimi",
+                Age = 19
+            };
+
+            people.Add(p3);
+
+            var result27 = people.ToList();
+
+            var result28 = people.OrderBy(p => p.Age).ToList();
+
+            var result29 = people.OrderByDescending(p => p.Age).ToArray();
+
+            var result30 = people.Where(p => p.Age >= 20).OrderBy(p => p.Age).ToList();
+
+            var result31 = people.Select(p => p.Name).ToList();
+
+            var result32 = people.Select(p => new { p.Name, p.Family, p.Age }).ToList();
+
+
+            // Take 
+            int[] Take = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            var result33 = Take.OrderBy(n => n).Take(3).ToArray();
+            var result34 = Take.OrderByDescending(n => n).Take(3).ToArray();
+
+            // Skip 
+            int[] Skip = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+            var result35 = Take.OrderBy(n => n).Skip(3).ToArray();
+            var result36 = Take.OrderByDescending(n => n).Take(3).ToArray();
+
+
+            foreach (var item in result35)
+            {
+                System.Console.WriteLine(item);
+                // System.Console.WriteLine($"Name: {item.Name}  Family: {item.Family} Age: {item.Age}");
+            }
         }
     }
 }
